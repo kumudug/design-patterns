@@ -40,7 +40,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractMotorcycle.cs" />
+    <Compile Include="AbstractTyreFactory.cs" />
+    <Compile Include="BridgestoneTyreFactory.cs" />
+    <Compile Include="DunlopTyreFactory.cs" />
+    <Compile Include="MichelinTyreFactory.cs" />
+    <Compile Include="Motorcycle_MT09.cs" />
+    <Compile Include="PirelliTyreFactory.cs" />
+    <Compile Include="Tyre\AbstractTyre.cs" />
+    <Compile Include="Tyre\CruiserTyre.cs" />
+    <Compile Include="Tyre\DirtTyre.cs" />
+    <Compile Include="Tyre\DuelSportsTyre.cs" />
+    <Compile Include="Tyre\SportsTouringTyre.cs" />
+    <Compile Include="Tyre\SportsTyre.cs" />
+    <Compile Include="Tyre\TouringTyre.cs" />
+    <Compile Include="Tyre\TrackTyre.cs" />
+    <Compile Include="Tyre\TyreComposition.cs" />
+    <Compile Include="Tyre\TyreCompound.cs" />
+    <Compile Include="Tyre\IMotorcycleTyre.cs" />
+    <Compile Include="IMotorcycleTyreFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tyre\TyreLocation.cs" />
+    <Compile Include="Tyre\TyreType.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
