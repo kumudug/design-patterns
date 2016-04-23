@@ -1,8 +1,6 @@
 # design-patterns
 Design Pattern Implementations
 
-##
-
-Patterns Implemented
+## Patterns Implemented
 
 - Abstract Factory
