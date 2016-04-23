@@ -1,4 +1,5 @@
-﻿using DesignPatterns.AbstractFactory.Simple.Tyre;
+﻿using DesignPatterns.AbstractFactory.Simple.Factory;
+using DesignPatterns.AbstractFactory.Simple.Tyre;
 
 namespace DesignPatterns.AbstractFactory.Simple
 {
@@ -7,8 +8,6 @@ namespace DesignPatterns.AbstractFactory.Simple
         public IMotorcycleTyre FrontTyre { get; set; }
         public IMotorcycleTyre RearTyre { get; set; }
 
-        protected AbstractMotorcycle(IMotorcycleTyreFactory tyreFactory)
-        {
-        }
+        protected AbstractMotorcycle(IMotorcycleTyreFactory tyreFactory){}
     }
 }

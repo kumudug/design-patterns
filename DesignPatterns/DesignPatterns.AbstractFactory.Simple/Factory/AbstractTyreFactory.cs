@@ -1,6 +1,6 @@
 ﻿using DesignPatterns.AbstractFactory.Simple.Tyre;
 
-namespace DesignPatterns.AbstractFactory.Simple
+namespace DesignPatterns.AbstractFactory.Simple.Factory
 {
     public abstract class AbstractTyreFactory : IMotorcycleTyreFactory
     {

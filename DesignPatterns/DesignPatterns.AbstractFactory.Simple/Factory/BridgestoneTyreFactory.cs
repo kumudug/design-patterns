@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using DesignPatterns.AbstractFactory.Simple.Tyre;
 
-namespace DesignPatterns.AbstractFactory.Simple
+namespace DesignPatterns.AbstractFactory.Simple.Factory
 {
     public class BridgestoneTyreFactory: AbstractTyreFactory
     {

@@ -1,7 +1,6 @@
-﻿using System.Security.Cryptography.X509Certificates;
-using DesignPatterns.AbstractFactory.Simple.Tyre;
+﻿using DesignPatterns.AbstractFactory.Simple.Tyre;
 
-namespace DesignPatterns.AbstractFactory.Simple
+namespace DesignPatterns.AbstractFactory.Simple.Factory
 {
     public interface IMotorcycleTyreFactory
     {
