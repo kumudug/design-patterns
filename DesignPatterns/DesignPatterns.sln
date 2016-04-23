@@ -7,8 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstract Factory", "Abstrac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.AbstractFactory.Simple", "DesignPatterns.AbstractFactory.Simple\DesignPatterns.AbstractFactory.Simple.csproj", "{F437F8EE-E5B0-4542-9769-1FAA5BD253EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.AbstractFactory.Generic", "DesignPatterns.AbstractFactory.Generic\DesignPatterns.AbstractFactory.Generic.csproj", "{2970A779-B685-4BCD-97BB-538BD0C822F1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.AbstractFactory.Sample", "DesignPatterns.AbstractFactory.Sample\DesignPatterns.AbstractFactory.Sample.csproj", "{6CE3AC0A-50F3-45AD-8CB7-7826A8D109E0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementations", "Implementations", "{528456C4-829F-4448-97F8-91D587B67FE7}"
@@ -23,10 +21,6 @@ Global
 		{F437F8EE-E5B0-4542-9769-1FAA5BD253EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F437F8EE-E5B0-4542-9769-1FAA5BD253EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F437F8EE-E5B0-4542-9769-1FAA5BD253EE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2970A779-B685-4BCD-97BB-538BD0C822F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2970A779-B685-4BCD-97BB-538BD0C822F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2970A779-B685-4BCD-97BB-538BD0C822F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2970A779-B685-4BCD-97BB-538BD0C822F1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6CE3AC0A-50F3-45AD-8CB7-7826A8D109E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6CE3AC0A-50F3-45AD-8CB7-7826A8D109E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CE3AC0A-50F3-45AD-8CB7-7826A8D109E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,7 +31,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F437F8EE-E5B0-4542-9769-1FAA5BD253EE} = {528456C4-829F-4448-97F8-91D587B67FE7}
-		{2970A779-B685-4BCD-97BB-538BD0C822F1} = {528456C4-829F-4448-97F8-91D587B67FE7}
 		{6CE3AC0A-50F3-45AD-8CB7-7826A8D109E0} = {508F1825-4627-49B7-BE4F-995383EB1A2A}
 		{528456C4-829F-4448-97F8-91D587B67FE7} = {508F1825-4627-49B7-BE4F-995383EB1A2A}
 	EndGlobalSection
