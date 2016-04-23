@@ -1,5 +1,8 @@
 # Design Pattern Implementations
 
-### Patterns Implemented
 
+### Creational Patterns
 - Abstract Factory
+- Factory Method
+
+
