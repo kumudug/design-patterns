@@ -1,6 +1,4 @@
-# design-patterns
-
-## Design Pattern Implementations
+# Design Pattern Implementations
 
 ### Patterns Implemented
 
