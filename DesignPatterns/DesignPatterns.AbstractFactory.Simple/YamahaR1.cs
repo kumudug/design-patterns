@@ -3,7 +3,7 @@ using DesignPatterns.AbstractFactory.Simple.Tyre;
 
 namespace DesignPatterns.AbstractFactory.Simple
 {
-    public class YamahaR1:AbstractMotorcycle
+    public class YamahaR1 : AbstractMotorcycle
     {
         public YamahaR1(IMotorcycleTyreFactory tyreFactory) : base(tyreFactory)
         {

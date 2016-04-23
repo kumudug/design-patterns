@@ -3,7 +3,8 @@ using DesignPatterns.AbstractFactory.Simple.Tyre;
 
 namespace DesignPatterns.AbstractFactory.Simple
 {
-    public class YamahaXSR900:AbstractMotorcycle
+    // ReSharper disable once InconsistentNaming
+    public class YamahaXSR900 : AbstractMotorcycle
     {
         public YamahaXSR900(IMotorcycleTyreFactory tyreFactory) : base(tyreFactory)
         {

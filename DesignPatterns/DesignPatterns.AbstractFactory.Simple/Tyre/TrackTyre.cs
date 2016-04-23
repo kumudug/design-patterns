@@ -4,7 +4,7 @@ namespace DesignPatterns.AbstractFactory.Simple.Tyre
 {
     public class TrackTyre : AbstractTyre
     {
-        public TrackTyre():base(0,0,0,TyreLocation.Front)
+        public TrackTyre() : base(0, 0, 0, TyreLocation.Front)
         {
             TyreType = TyreType.Track;
         }
@@ -14,12 +14,12 @@ namespace DesignPatterns.AbstractFactory.Simple.Tyre
             TyreType = TyreType.Track;
             if (location == TyreLocation.Rear)
             {
-                TyreCompounds = new List<TyreCompound> { TyreCompound.Medium, TyreCompound.SoftMedium, TyreCompound.Soft };
+                TyreCompounds = new List<TyreCompound> {TyreCompound.Medium, TyreCompound.SoftMedium, TyreCompound.Soft};
                 TyreComposition = TyreComposition.TripleCompound;
             }
             else
             {
-                TyreCompounds = new List<TyreCompound> { TyreCompound.Soft };
+                TyreCompounds = new List<TyreCompound> {TyreCompound.Soft};
                 TyreComposition = TyreComposition.SingleCompund;
             }
         }

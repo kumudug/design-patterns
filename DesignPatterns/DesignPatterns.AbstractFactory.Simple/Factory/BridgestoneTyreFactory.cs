@@ -3,7 +3,7 @@ using DesignPatterns.AbstractFactory.Simple.Tyre;
 
 namespace DesignPatterns.AbstractFactory.Simple.Factory
 {
-    public class BridgestoneTyreFactory: AbstractTyreFactory
+    public class BridgestoneTyreFactory : AbstractTyreFactory
     {
         public override SportsTyre CreateSportsTyre(int w, float a, int d, TyreLocation location)
         {
@@ -13,7 +13,7 @@ namespace DesignPatterns.AbstractFactory.Simple.Factory
             {
                 if (w > 100)
                 {
-                    tyre.TyreCompounds = new List<TyreCompound>()
+                    tyre.TyreCompounds = new List<TyreCompound>
                     {
                         TyreCompound.Medium,
                         TyreCompound.SoftMedium,
@@ -23,7 +23,7 @@ namespace DesignPatterns.AbstractFactory.Simple.Factory
                 }
                 else
                 {
-                    tyre.TyreCompounds = new List<TyreCompound>()
+                    tyre.TyreCompounds = new List<TyreCompound>
                     {
                         TyreCompound.Medium,
                         TyreCompound.Soft

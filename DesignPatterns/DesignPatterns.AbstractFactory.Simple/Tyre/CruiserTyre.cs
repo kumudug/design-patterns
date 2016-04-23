@@ -4,9 +4,9 @@ namespace DesignPatterns.AbstractFactory.Simple.Tyre
 {
     public class CruiserTyre : AbstractTyre
     {
-        public CruiserTyre(): base(0,0,0,TyreLocation.Front)
+        public CruiserTyre() : base(0, 0, 0, TyreLocation.Front)
         {
-            TyreType= TyreType.Cruiser;
+            TyreType = TyreType.Cruiser;
         }
 
         public CruiserTyre(int w, float a, int d, TyreLocation location) : base(w, a, d, location)

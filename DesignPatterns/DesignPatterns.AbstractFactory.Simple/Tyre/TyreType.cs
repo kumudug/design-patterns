@@ -3,7 +3,7 @@
     public enum TyreType
     {
         Sports = 0,
-        Touring = 1, 
+        Touring = 1,
         SportsTouring = 2,
         Track = 3,
         Cruiser = 4,

@@ -4,7 +4,7 @@ namespace DesignPatterns.AbstractFactory.Simple.Tyre
 {
     public class DuelSportsTyre : AbstractTyre
     {
-        public DuelSportsTyre():base(0,0,0,TyreLocation.Front)
+        public DuelSportsTyre() : base(0, 0, 0, TyreLocation.Front)
         {
             TyreType = TyreType.DuelSports;
         }
