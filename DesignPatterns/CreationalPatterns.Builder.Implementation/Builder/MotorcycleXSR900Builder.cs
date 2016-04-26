@@ -1,5 +1,6 @@
 ﻿namespace CreationalPatterns.Builder.Implementation.Builder
 {
+    // ReSharper disable once InconsistentNaming
     public class MotorcycleXSR900Builder : MotorcycleBuilder
     {
         public MotorcycleXSR900Builder()

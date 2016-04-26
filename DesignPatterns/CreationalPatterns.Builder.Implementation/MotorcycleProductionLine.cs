@@ -13,6 +13,7 @@ namespace CreationalPatterns.Builder.Implementation
             builder.BuildHeadAssembly();
             builder.BuildTailAssembly();
             builder.Motorcycle.PrintDetails();
+            builder.Motorcycle.PrintDetails();
         }
     }
 }
