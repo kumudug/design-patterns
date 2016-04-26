@@ -5,3 +5,4 @@
 - Abstract Factory
 - Factory Method
 - Builder
+- Prototype
